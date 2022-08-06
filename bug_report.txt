@@ -1,0 +1,21 @@
+Summary:	On the registration page, when you enter a spacebar instead symbols in the "password" field, an account is registered	
+Project:	Name	
+Environment:	OS(macOS 12.0.1 (21A559))
+	            Browser	(Safari (17612.4.9.1.8),FireFox 102.0.1,Chrome 103.0.5060.114)
+
+Preconditions:	"Open website ""Name" Be on the registration page.
+Description :
+1. Input valid data in the email, Full Name fields.
+2. Input 12 spacebars in the Password field ;
+3. Input 12 spacebars in the Confirm Password field ;
+4.Click the button Registration.
+
+Actual result:	Successful registration with the spacebars in the Password.	
+Expected result:	Error message. Invalid data entered.	
+Severity:	Major	
+Priority:	High	
+Status:	New	
+Reporter:	Udovychenko A	
+Requirement:	-	
+Assignee:	Ivanov	
+ 		
